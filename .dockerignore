@@ -1,0 +1,41 @@
+# Ignore everything by default
+**
+
+# Allow only what the Dockerfile copies
+!requirements.txt
+!app
+!worker
+
+# Re-exclude unwanted files inside app/ and worker/
+
+# Python cache and build output
+**/__pycache__
+**/*.py[cod]
+**/*.egg-info
+**/.pytest_cache
+**/.mypy_cache
+**/.ruff_cache
+**/.coverage
+**/htmlcov
+
+# Virtual environments
+**/.venv
+**/venv
+
+# Secrets and local config
+**/.env
+**/.env.*
+**/*.pem
+**/*.key
+
+# Logs and local databases
+**/*.log
+**/*.sqlite3
+**/*.db
+
+# Editor and OS files
+**/.vscode
+**/.idea
+**/*.swp
+**/.DS_Store
+**/Thumbs.db

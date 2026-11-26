@@ -134,7 +134,7 @@ flowchart LR
 
 ## Prerequisites
 
-- Python 3.11+ and pip (use the version compatible with your dependencies)
+- Python 3.12+ and pip (use the version compatible with your dependencies)
 - Docker Desktop or Docker Engine for container testing
 - AWS account with access to S3 and the required Amazon Bedrock models
 - Pinecone account and API key
